@@ -12,11 +12,8 @@ st.title("Fuzzy Annotator!")
 user_name = "Karo"
 
 # set up
-time_span_directory = os.path.join(DATA_DIR,
-                                   SAMPLES_DIRECTORY)
-person_directory = os.path.join(time_span_directory,
-                                "220520220053",
-                                user_name)  # TODO: remove date
+person_directory = os.path.join(DATA_DIR,
+                                user_name)
 if not os.path.exists(person_directory):
     st.write("That is not your user name!!!")
     st.stop()
