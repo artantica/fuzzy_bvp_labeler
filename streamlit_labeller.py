@@ -9,7 +9,7 @@ from src.config import DATA_DIR, SAMPLES_DIRECTORY, RESULTS_FILE_NAME, BATCH_SIZ
 st.set_page_config(layout='wide')
 st.title("Fuzzy Annotator!")
 
-user_name = "Karo"
+user_name = "Tomek"
 
 # set up
 person_directory = os.path.join(DATA_DIR,
